@@ -8,7 +8,7 @@ Simple program with GUI that converts MP4 to MP3.<br/>
 2. Choose MP4
 3. Click "Convert to MP3"
 
-Converted file will be in the directory of original file.
+<b>Converted file will be in the directory of original file.</b>
 
 # Requirements
 Windows 10 or macOS Monterey with Python 3 installed.
