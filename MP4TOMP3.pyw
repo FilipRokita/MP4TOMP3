@@ -18,7 +18,6 @@ def getFile():
     )
     global mp4Path; mp4Path = fd.askopenfilename(title="Choose MP4", filetypes=filetypes)
     global mp3Path; mp3Path = mp4Path[:-4]+".mp3"
-    print(mp3Path)
     convertB["state"] = tk.NORMAL
 
 def convert():
