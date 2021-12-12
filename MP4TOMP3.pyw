@@ -26,8 +26,8 @@ def convert():
     video.audio.write_audiofile(os.path.join(mp3Path))
     
 
-getFileB = tk.Button(text="Choose MP4", width="10", command=getFile); getFileB.pack()
-convertB = tk.Button(text="Convert to MP3", width="10", stat=tk.DISABLED, command=convert); convertB.pack()
+getFileB = tk.Button(text="Choose MP4", width="15", command=getFile); getFileB.pack()
+convertB = tk.Button(text="Convert to MP3", width="15", stat=tk.DISABLED, command=convert); convertB.pack()
 authorL = tk.Label(text="www.filiprokita.com", pady="10"); authorL.pack()
 
 
