@@ -23,7 +23,7 @@ def getFile():
 def convert():
     video = VideoFileClip(os.path.join(mp4Path))
     video.audio.write_audiofile(os.path.join(mp3Path))
-    
+
 
 getFileB = tk.Button(text="Choose MP4", width="15", command=getFile); getFileB.pack()
 convertB = tk.Button(text="Convert to MP3", width="15", stat=tk.DISABLED, command=convert); convertB.pack()
