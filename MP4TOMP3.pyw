@@ -10,6 +10,7 @@ from moviepy.editor import *
 root = tk.Tk()
 root.title("MP4TOMP3")
 root.geometry("300x100")
+root.resizable(False, False)
 
 def getFile():
     filetypes = (
